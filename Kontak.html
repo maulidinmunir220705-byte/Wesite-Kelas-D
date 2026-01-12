@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <title>Infomatika Kelas D</title>
+  <meta name="description" content="Dashboard Kelas D. Dosen PA dari kelas d adalah Bapak Jumawal">
+  <meta name="keywords" content="Universitas Hamzanwadi - Fakultas Teknik - Program Studi Infomatika - Kelas D">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    *, html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #343a40;
+      text-align: center;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+    }
+
+    .header-left, .header-center, .header-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-left { flex: 1; justify-content: flex-start; }
+    .header-center { flex: 2; justify-content: center; }
+    .header-right { flex: 1; justify-content: flex-end; }
+
+    .logo-icon { 
+      font-size: 32px;
+      margin-right: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .logo-icon:hover {
+        transform: rotate(-10deg) scale(1.1);
+    }
+
+    .logo-title {
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+
+    .Aman {
+      font-size: 1.3em;
+      font-weight: 700;
+    }
+
+    .instagram-button {
+      padding: 8px 16px;
+      background-color: #E1306C;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 0.9em;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .instagram-button:hover {
+      background-color: #c22a5b;
+      transform: translateY(-2px) scale(1.05);
+    }
+
+    .container {
+      padding: 30px 15px;
+      max-width: 960px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .container h1, .container h2 {
+        color: #007bff;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .container h1 {
+        font-size: 2em;
+    }
+    
+    .container h2 {
+        font-size: 1.5em;
+        font-weight: 400; 
+    }
+
+    .school-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      margin-top: 20px;
+      margin-bottom: 20px; 
+    }
+    
+    .description {
+      margin-top: 30px;
+      font-size: 1.15em; 
+      line-height: 1.6;
+      padding: 25px 30px; 
+      background-color: #ffffff; 
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+      border-left: 5px solid #ffc107; 
+      text-align: left;
+    }
+    
+    .description strong {
+        color: #007bff; 
+        font-weight: 900; 
+    }
+
+    .pa-name {
+        color: #28a745; 
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .bottom-links {
+      position: fixed;
+      bottom: 22px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+    }
+
+    .bottom-links a {
+      padding: 10px 18px;
+      background-color: #ffc107;
+      color: #343a40;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 0.95em;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .bottom-links a:hover {
+      background-color: #e0a800;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.85em;
+      color: #777;
+      border-top: 1px solid #eee;
+    }
+/* ... kode CSS sebelumnya ... */
+    @media (max-width: 768px) {
+      /* perbaikan css media query */
+      .bottom-links {
+        bottom: 10px;
+        right: 10px;
+        flex-direction: row;
+        width: calc(100% - 20px);
+        justify-content: space-around;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <h1>Hubungi Kami</h1>
+      <p>Silakan hubungi admin Kelas D melalui WhatsApp atau Instagram.</p>
+  </div>
+
+  <div class="bottom-links">
+    <a href="index.html">🏠 Beranda</a>
+    <a href="tentang.html">🖼️ Galeri</a>
+  </div>
+
+  <footer>
+    &copy; 2026 class_d_informatics
+  </footer>
+</body>
+</html>
